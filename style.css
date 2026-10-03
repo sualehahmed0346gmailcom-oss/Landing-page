@@ -1,0 +1,356 @@
+/* ================================
+   ROLEX PRESTIGE - STYLE SHEET
+   Concepts up to Chapter 15
+   ================================ */
+
+
+/* BASIC PAGE */
+
+body {
+    background-color: #1190f8;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* MAIN PAGE */
+
+#page {
+    width: 1350px;
+    margin: auto;
+    background-color: #0A1EFF;
+}
+
+
+/* ================================
+   HEADER
+   ================================ */
+
+#header {
+    background-color: #1a252f;
+    padding: 20px;
+    border-bottom: 5px solid #FACC27;
+}
+
+#header h1 {
+    color: #d4af37;
+    font-size: 95px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+/* NAVIGATION */
+
+#nav {
+    margin-top: 10px;
+}
+
+#nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    margin: 5px;
+}
+
+#nav a {
+    color: #2F47F3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#nav a:hover {
+    color: #FACC27;
+}
+#nav a:visited {
+    color:#FFFFFE;
+}
+
+
+/* ================================
+   HOME / HERO
+   ================================ */
+
+.feature {
+    min-height: 350px;
+    background-color: #f8ffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+
+/* LEFT SIDE TEXT */
+
+.feature-text {
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.feature-text h2 {
+    color: #0A1EFF;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.feature-text p {
+    font-size: 22px;
+    color: #000000;
+}
+
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    background-color: #111111;
+    color: #ffffff;
+    border: 2px solid #FACC27;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #d4af37;
+    color: #111111;
+}
+
+
+/* HOME IMAGE */
+
+.feature-image {
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+
+.feature-image img {
+    border: 10px solid #FACC27;
+}
+
+
+/* CLEAR */
+
+.clear {
+    clear: both;
+}
+
+
+/* ================================
+   GENERAL SECTIONS
+   ================================ */
+
+.section {
+    padding: 15px ;
+    border-bottom: 3px solid #dddddd;
+    background-color: #f8ffff;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #0A1EFF;
+    font-size: 38px;
+    border-bottom: 3px solid #FACC27;
+    padding-bottom: 10px;
+}
+
+.section h3 {
+    color: #0A1EFF;
+    font-size: 30px;
+}
+
+
+/* ================================
+   ABOUT SECTION
+   ================================ */
+
+.about-left {
+    width: 55%;
+    float: left;
+    padding-right: 25px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #e6ebeb;
+}
+
+.about-right {
+    width: 30%;
+    float: right;
+    padding: 20px;
+    background-color: #e6ebeb;
+    border: 3px solid #FACC27;
+    font-size: 20px;
+}
+
+/* ================================
+   WATCH COLLECTION
+   ================================ */
+
+.watch {
+    width: 20%;
+    float: left;
+    margin: 1%;
+    padding: 15px;
+    background-color: #e6ebeb;
+    border: 5px solid #FACC27;
+    text-align: center;
+}
+
+.watch img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #111111;
+}
+
+.watch h3 {
+    color: #FACC27;
+    font-size: 20px;
+}
+
+.watch p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.watch .price {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.watch a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.watch a:hover {
+    color: #FACC27;
+}
+
+
+/* ================================
+   SERVICES
+   ================================ */
+
+.service {
+    width: 28%;
+    float: left;
+    margin: 1%;
+    padding: 20px;
+    background-color: #1a252f;
+    border: 2px solid #cccccc;
+    text-align: center;
+}
+
+.service h3 {
+    margin-top: 0;
+    color: #FACC27;
+}
+.service p {
+    color: #fef9f9;
+}
+
+/* ================================
+   TABLE
+   ================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #1a252f;
+    color: #FACC27;
+    padding: 12px;
+    border: 4px solid #FACC27;
+    font-size: 28px;
+}
+
+td {
+    padding: 12px;
+    border: 5px solid #beb9b9;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #c7c5c5;
+}
+
+
+/* ================================
+   CONTACT FORM
+   ================================ */
+
+form {
+    width: 900px;
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #e6ebeb;
+    border: 4px solid #cccccc;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    padding: 12px 25px;
+    background-color: #1a252f;
+    color: #fffdfd;
+    border: 4px solid #FACC27;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #FACC27;
+    color: #1a252f;
+}
+
+
+/* ================================
+   FOOTER
+   ================================ */
+
+#footer {
+    padding: 5px;
+    background-color: #1a252f;
+    color: #ffffff;
+    text-align: center;
+    border-top: 5px solid #FACC27;
+}
+
+#footer h2 {
+    margin-top: 0;
+    color: #FACC27;
+    font-size: 28px;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#footer a:hover {
+    color: #FACC27;
+}
